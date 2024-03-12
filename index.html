@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="content1">
+        <div>
+            <input type="any" id="home">
+        </div>
+        <div class="buttons">
+                <div class="row1">
+                <button onclick="addtohome('7')">7</button>
+                <button onclick="addtohome('8')">8</button>
+                <button onclick="addtohome('9')">9</button>
+                <button onclick="addtohome('/')">/</button>
+            </div>
+            <div class="row2">
+                <button onclick="addtohome('4')">4</button>
+                <button onclick="addtohome('5')" >5</button>
+                <button onclick="addtohome('6')" >6</button>
+                <button onclick="addtohome('-')" >-</button>
+            </div>
+            <div class="row3">
+                <button onclick="addtohome('1')">1</button>
+                <button onclick="addtohome('2')">2</button>
+                <button onclick="addtohome('3')">3</button>
+                <button onclick="addtohome('+')">+</button>
+            </div>
+            <div class="row4">
+                <button onclick="addtohome('0')">0</button>
+                <button onclick="addtohome('.')">.</button>
+                <button onclick="addtohome('*')">*</button>
+                <button onclick="calculate()">=</button>
+            </div>
+            <button id="clear" onclick="cleardisplay()">c</button>
+        </div>
+        <script src="script.js"></script>
+    </div>
+</body>
+</html>

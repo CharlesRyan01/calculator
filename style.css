@@ -1,0 +1,73 @@
+.content1{
+    align-items: center;
+    margin-left: 550px;
+    margin-top: 100px;
+    padding: 20px;
+    background-color: black;
+    margin-right: 530px;
+    border-radius: 10px;
+}
+.row1{
+    display: flex;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    align-items: center;
+}
+.row2{
+    display: flex;
+    margin-bottom: 10px;
+    align-items: center;
+}
+.row3{
+    display: flex;
+    margin-bottom: 10px;
+    align-items: center;
+}
+.row4{
+    display: flex;
+    margin-bottom: 10px;
+    align-items: center;
+}
+.row1 button{
+    padding-left: 17px;
+    padding-right: 17px;
+    border-radius: 50px;
+    border-color: violet;
+    color: violet;
+    background-color: black;
+}
+.row2 button{
+    padding-left: 17px;
+    padding-right: 17px;
+    border-radius: 50px;
+    border-color: violet;
+    color: violet;
+    background-color: black;
+}
+.row3 button{
+    padding-left: 17px;
+    padding-right: 17px;
+    border-radius: 50px;
+    background-color: black;
+    border-color: violet;
+    color: violet;
+}
+.row4 button{
+    padding-left: 17px;
+    padding-right: 17px;
+    border-radius: 50px;
+    border-color: violet;
+    color: violet;
+    background-color: black;
+}
+#clear{
+    height: 20px;
+    width: 45px;
+    border-radius: 50px;
+    border-color: violet;
+    color: violet;
+    background-color: black;
+}
+.buttons button:hover{
+    background-color: wheat;
+}
