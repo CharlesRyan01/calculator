@@ -7,5 +7,5 @@ function calculate(){
     home .value = eval(home.value);
 }
 function cleardisplay() {
-    home.value = ""
+    home.value = "";
 }
